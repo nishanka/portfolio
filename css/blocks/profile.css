@@ -1,0 +1,73 @@
+/* portfolio */
+.profile {
+    padding: var(--common-padding);
+    text-align: center;
+}
+
+.profile-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.profile-img__link,
+.profile-name__link {
+    text-decoration: none;
+}
+
+.profile-img__link,
+.profile-img__link img {
+    border-radius: 50%;
+    transition: var(--border-transition);
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.profile-img__link {
+    display: block;    
+    overflow: hidden;
+    line-height: 0;
+    border: 2px dotted var(--border-color);
+    border-color: #0000ff #ffff00 #ff0000 #008000;
+    animation-name: changeProfileLinkBorderColor;
+}
+
+.profile-img__link img {
+    border: 3px solid var(--border-color);
+    border-color: #ff0000 #008000 #0000ff #ffff00;
+    animation-name: changeProfileImgBorderColor;
+}
+
+.profile-img__link:hover {
+    border-color: #ffff00 #ff0000 #008000 #0000ff;
+    border-style: solid;
+}
+
+.profile-img__link:hover img {
+    border-color: #008000 #0000ff #ffff00 #ff0000;
+    border-style: dotted;
+}
+
+.profile-name__link {
+    color: var(--secondarycolor);
+}
+
+.profile-name__link:hover {
+    color: var(--ternarycolor);
+}
+
+@keyframes changeProfileLinkBorderColor {
+    0% {border-color: #ffff00 #ff0000 #008000 #0000ff;}
+    25%  {border-color: #0000ff #ffff00 #ff0000 #008000;}
+    50%  {border-color: #008000 #0000ff #ffff00 #ff0000;}
+    75% {border-color: #ff0000 #008000 #0000ff #ffff00;}
+    100% {border-color: #ffff00 #ff0000 #008000 #0000ff;}
+}
+
+@keyframes changeProfileImgBorderColor {
+    0%  {border-color: #008000 #0000ff #ffff00 #ff0000;}
+    25% {border-color: #ff0000 #008000 #0000ff #ffff00;}
+    50% {border-color: #ffff00 #ff0000 #008000 #0000ff;}
+    75%  {border-color: #0000ff #ffff00 #ff0000 #008000;}
+    100%  {border-color: #008000 #0000ff #ffff00 #ff0000;}
+}

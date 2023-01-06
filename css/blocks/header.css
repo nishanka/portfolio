@@ -1,0 +1,5 @@
+/* Main Header */
+.header {
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+}

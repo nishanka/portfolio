@@ -1,0 +1,15 @@
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--common-padding);
+}
+
+.social-links__link {
+    text-decoration: none;
+    color: var(--secondarycolor);
+    line-height: 0;
+}
+
+.social-links__link:hover {
+    color: var(--blue);
+}

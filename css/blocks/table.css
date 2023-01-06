@@ -1,0 +1,47 @@
+/* Table Content */
+table,
+th,
+td {
+  border: 1px solid var(--ternarycolor);
+  border-collapse: collapse;
+}
+
+caption {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+th,
+td {
+    font-size: 13px;
+    line-height: 1.2;
+    padding: 8px 12px;
+}
+
+th {
+    font-size: 14px;
+}
+
+caption a,
+td a {
+    color: var(--ternarycolor);
+    text-decoration: none;
+}
+
+caption a:hover,
+td a:hover {
+    color: var(--blue);
+}
+
+td.complete,
+td.complete a {
+    color: var(--green);
+}
+
+td.complete a {
+    text-decoration: none;
+}
+
+td.complete a:hover {
+    color: var(--secondarycolor);
+}

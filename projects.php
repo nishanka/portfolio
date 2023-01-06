@@ -16,7 +16,7 @@
                         <article>
                             <h4>Microsite</h4>
                             <p>React, Bootstrap</p>
-                            <a href="https://github.com/nishanka/micrositesg">Git Repo</a>
+                            <a href="https://github.com/nishanka/micrositesg" target="_blank">Git Repo</a>
                         </article>
                     </li>
                 </ul>
@@ -26,7 +26,7 @@
                         <article>
                             <h4>My Portfolio</h4>
                             <p>PHP</p>
-                            <a href="https://github.com/nishanka/portfolio">Git Repo</a>
+                            <a href="https://github.com/nishanka/portfolio" target="_blank">Git Repo</a>
                         </article>
                     </li>
                 </ul>
@@ -36,7 +36,7 @@
                         <article>
                             <h4>Project Name</h4>
                             <p>Introduction</p>
-                            <a href="#">Git Repo</a>
+                            <a href="#" target="_blank">Git Repo</a>
                         </article>
                     </li>
                 </ul>
@@ -46,7 +46,7 @@
                         <article>
                             <h4>Project Name</h4>
                             <p>Introduction</p>
-                            <a href="#">Git Repo</a>
+                            <a href="#" target="_blank">Git Repo</a>
                         </article>
                     </li>
                 </ul>

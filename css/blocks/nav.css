@@ -1,0 +1,19 @@
+/* Main navigation */
+.nav a {
+    display: block;
+    padding: 10px var(--common-padding);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--ternarycolor);
+    color: var(--primarycolor);
+}
+
+.nav a:hover {
+    background-color: var(--secondarycolor);
+    color: var(--blue);
+}
+
+.nav > a > span {
+    margin-right: 10px;
+}

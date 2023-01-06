@@ -5,7 +5,9 @@
         <?php include 'header.php';?>
 
         <section class="main-content">
-            <p>About me...</p>
+            <h3>Who am I?</h3>
+            <h3>Skills</h3>
+            <h3>Strengths</h3>
         </section>
 
         <footer>

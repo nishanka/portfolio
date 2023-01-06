@@ -12,7 +12,7 @@
         <a href="about.php"><span class="icon-user"></span>About</a>
         <a href="resume.php"><span class="icon-file-text"></span>Resume</a>
         <a href="projects.php"><span class="icon-folder-open"></span>Projects</a>
-        <a style="display:none;" href="mylearning.php"><span class="icon-book"></span>My Learning</a>
+        <a href="mylearning.php"><span class="icon-book"></span>My Learning</a>
     </nav>
     <nav class="social-links">
         <a href="https://www.linkedin.com/in/nishanka/" target="_blank" class="social-links__link social-links__link--linkedin"><span class="icon-linkedin"></span></a>
