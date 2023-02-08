@@ -1,6 +1,6 @@
-<?php include 'head.php';?>
+<?php include './main/head.php';?>
     <div class="container flex-container">
-        <?php include 'header.php';?>
+        <?php include './main/header.php';?>
         <section class="main-content">
             <!-- Tab links -->
             <aside class="tab flex-container flex-wrap">
@@ -424,5 +424,6 @@
             
         </section>
     </div>
+    
     <script type="text/javascript" src="js/tabs.js"></script>
-<?php include 'footer.php';?>
+<?php include './main/footer.php';?>

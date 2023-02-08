@@ -1,0 +1,19 @@
+.welcome-message {
+   margin: var(--common-margin) 0;
+}
+
+.welcome-message h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .welcome-message__left {
+    transform: translateX(-100px);
+ }
+
+ .welcome-message__right {
+    transform: translateX(100px);
+ }
+ 

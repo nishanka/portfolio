@@ -1,5 +1,12 @@
 /* Main Header */
 .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    overflow: hidden;
     background-color: var(--primarycolor);
     color: var(--secondarycolor);
+    z-index: 100;
 }

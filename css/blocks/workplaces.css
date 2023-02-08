@@ -1,0 +1,95 @@
+.workplace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 var(--common-margin) 0;
+}
+
+.workplace-summary {
+    background-color: var(--block-bg-green);
+    text-align: center;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    z-index: 10;
+}
+
+.workplace:nth-of-type(2n) .workplace-summary {
+    background-color: var(--primarycolor);
+}
+
+.workplace-summary,
+.workplace-details {
+    width: 50%;
+    padding: calc(1.5 * var(--common-padding)) var(--common-padding);
+}
+
+.workplace-summary::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 0 30px 30px;
+    border-color: transparent transparent transparent var(--block-bg-green);
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.workplace:nth-of-type(2n) .workplace-summary::after {
+    border-color: transparent transparent transparent var(--primarycolor);
+}
+
+.workplace-summary h1, 
+.workplace-summary h2,
+.workplace-summary h3,
+.workplace-summary h4
+.workplace-summary h5,
+.workplace-summary h6 {
+    margin: 0 0 10px;
+    line-height: 1;
+}
+
+.workplace-summary h3 a {
+    color: var(--secondarycolor);   
+}
+
+.workplace-summary h3 a:hover {
+    color: var(--primarycolor);   
+}
+
+.workplace:nth-of-type(2n) .workplace-summary h3 a:hover {
+    color: var(--block-bg-green);   
+}
+
+.workplace-summary .technologies {
+    margin: 30px auto;
+    padding: 0;
+}
+
+.workplace-summary ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 var(--common-padding);
+}
+
+.workplace-summary ul li {
+    margin-bottom: 5px;
+    margin-right: 30px;
+}
+
+.workplace-details {
+    background-color: var(--primarycolor-transparent);
+    color:rgba(255, 255, 255, 0.8);
+    border-radius: 0 10px 10px 0;
+}
+
+.workplace:nth-of-type(2n) .workplace-details {
+    background-color: var(--block-bg-green);
+}
+
+.workplace-details ul li {
+    margin-bottom: 8px;
+}

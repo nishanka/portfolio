@@ -11,8 +11,11 @@
     --gray: #dddddd;
     --gold: #ffd700;
     --dark-gray: #3d3d3d;
+    --block-bg-green: #006400;
+    --primarycolor-transparent: rgba(0, 0, 0, 0.5);
     --secondarycolor-transparent: rgba(255, 255, 255, 0.5);
     --common-padding: 20px;
+    --common-margin: 40px;
     --button-padding: 5px 10px;
     --common-transition: all .3s ease-in-out;
     --border-transition: border .3s ease-in-out;

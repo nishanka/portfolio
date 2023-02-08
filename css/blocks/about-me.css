@@ -1,0 +1,26 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.about-me-obj {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+    line-height: 1.7;
+    background-color: var(--primarycolor);
+    padding: calc(2 * var(--common-padding));
+    margin: 0;
+}
+
+.about-me-obj,
+.about-me-obj span {
+    word-spacing: 5px;
+}
+
+.about-me-line {
+    margin-left: 30px;
+}

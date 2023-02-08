@@ -1,8 +1,8 @@
-<?php include 'head.php';?>
+<?php include './main/head.php';?>
 
     <div class="container flex-container">
 
-        <?php include 'header.php';?>
+        <?php include './main/header.php';?>
 
         <section class="main-slider">
 
@@ -57,4 +57,4 @@
         </footer>
     </div>
 
-<?php include 'footer.php';?>
+<?php include './main/footer.php';?>
