@@ -1,0 +1,17 @@
+.content-block {
+    width: 70%;
+    /* background-color: var(--green); */
+    background-color: var(--primarycolor);
+    padding: var(--common-padding);
+    margin-bottom: var(--common-margin);
+    border: 2px solid var(--green);
+    clear: both;
+}
+
+.content-block--left {
+    float: left;
+}
+
+.content-block--right {
+    float: right;
+}
