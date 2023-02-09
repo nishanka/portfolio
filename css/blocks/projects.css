@@ -1,0 +1,14 @@
+.projects {
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(100%/2 - 20px);
+    border: 2px solid var(--green);
+}
+
+.project-info {
+    padding: var(--common-padding);
+    background: var(--primarycolor);
+}
