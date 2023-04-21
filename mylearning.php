@@ -31,14 +31,14 @@
                     </tr>
                     <tr>
                         <td>CSS 3</td>
-                        <td><a href="https://www.w3schools.com/css/default.asp" title="Go to W3Schools CSS 3 Tutorials" target="_blank">Link</a></td>
+                        <td class="complete"><a href="https://my-learning.w3schools.com/tutorial/css" title="Go to W3Schools CSS 3 Tutorials" target="_blank">Complete</a></td>
                         <td class="complete"><a href="https://my-learning.w3schools.com/tutorial/css" title="Go to W3Schools CSS 3 Exercises" target="_blank">Complete</a></td>
                         <td class="complete"><a href="https://my-learning.w3schools.com/tutorial/css" title="Go to W3Schools CSS 3 Quiz" target="_blank">Complete</a></td>
                     </tr>
                     <tr>
                         <td>JavaScript ES6</td>
                         <td><a href="https://www.w3schools.com/js/default.asp" title="Go to W3Schools JavaScript Tutorials" target="_blank">Link</a></td>
-                        <td><a href="https://www.w3schools.com/js/js_exercises.asp" title="Go to W3Schools JavaScript Exercises" target="_blank">Link</a></td>
+                        <td class="complete"><a href="https://my-learning.w3schools.com/tutorial/js" title="Go to W3Schools JavaScript Exercises" target="_blank">Complete</a></td>
                         <td class="complete"><a href="https://my-learning.w3schools.com/tutorial/js" title="Go to W3Schools JavaScript Quiz" target="_blank">Complete</a></td>
                     </tr>
                     <tr>

@@ -29,7 +29,7 @@
                             <span class="text-green">"Investor"</span> ],
                     </span>
                     <span class="about-me-line">
-                        <span class="text-red">"experience"</span> : <span class="text-green">"8<sup>+</sup> Years"</span>,
+                        <span class="text-red">"experience"</span> : <span class="text-green">"10<sup>+</sup> Years"</span>,
                     </span>
                     <span class="about-me-line">
                         <span class="text-red">"strenghts"</span> : [
@@ -46,7 +46,7 @@
                 <div class="workplace-summary workplace-summary--ig" data-aos="fade-up-right">
                     <h3><a href="https://www.intrepidgroup.travel/">Intrepid Group</a></h3>
                     <h4>Senior Front-End Engineer</h4>
-                    <h5>2017 - 2020</h5>
+                    <h5>2017 - Present</h5>
                     <div class="technologies">
                         <ul>
                             <li>HTML</li>
